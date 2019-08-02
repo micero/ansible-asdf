@@ -1,0 +1,28 @@
+---
+# defaults file for asdf
+asdf_version: "v0.7.3"
+asdf_user: "root"
+asdf_legacy_version_file: "yes"
+
+asdf_plugins: []
+# asdf_plugins:
+#   - name: "erlang"
+#     repository: ""
+#     versions:
+#       - 18.3
+#       - 20.1
+#     global: 20.1
+
+asdf_yum_global_dependencies: ["git", "automake", "autoconf", "readline-devel", "ncurses-devel", "openssl-devel", "libyaml-devel", "libxslt-devel", "libffi-devel", "libtool", "unixODBC-devel", "unzip", "curl"]
+
+
+asdf_yum_optional_dependencies: []
+
+asdf_yum_nodejs_dependencies: ["gpg", "perl-Digest-SHA"]
+
+asdf_yum_php_dependencies: ["re2c", "gettext", "libxml2-devel", "bzip2-devel", "libcurl-devel", "zlib-devel",
+  "libicu-devel", "libjpeg-devel", "libpng-devel", "libwebp-devel", "libedit-devel", "openssl-devel", "libfreetype6-devel"]
+
+asdf_yum_ruby_dependencies: ["openssl-devel", "libyaml-devel", "zlib-devel", "ncurses-devel", "libffi-devel", "bzip2"]
+
+asdf_yum_python_dependencies: ["make", "gcc", "zlib-devel", "bzip2", "bzip2-devel", "readline-devel", "sqlite", "sqlite-devel", "openssl-devel", "tk-devel", "libffi-devel"]

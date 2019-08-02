@@ -1,0 +1,13 @@
+---
+- name: "install asdf"
+  include_tasks: "install.yml"
+
+  tags: [asdf, asdf-install]
+
+- name: "install into shell"
+  include_tasks: "shell.yml"
+  tags: [asdf, asdf-plugins]
+
+- name: "install plugins"
+  include_tasks: "plugins.yml"
+  tags: [asdf, asdf-plugins]

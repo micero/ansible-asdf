@@ -1,0 +1,9 @@
+---
+- name: "install python dependencies with yum"
+  yum:
+    name: "{{ asdf_yum_python_dependencies }}"
+  retries: "{{ remote_package_retries }}"
+  register: yum_python_result
+  until: yum_python_result is succeeded
+  become: True
+  when: ansible_os_family == "RedHat"
