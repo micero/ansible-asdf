@@ -1,3 +1,4 @@
+---
 galaxy_info:
   author: Eugene Ignatov
   description: Install asdf (https://github.com/asdf-vm/asdf.git) and plugins
@@ -9,14 +10,14 @@ galaxy_info:
   platforms:
     - name: Ubuntu
       versions:
-      - all
+        - all
     - name: Debian
       versions:
-      - all
+        - all
     - name: EL
       versions:
-      - 6
-      - 7
+        - 6
+        - 7
 
   galaxy_tags:
     - asdf

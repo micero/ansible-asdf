@@ -20,8 +20,7 @@ asdf_yum_optional_dependencies: []
 
 asdf_yum_nodejs_dependencies: ["gpg", "perl-Digest-SHA"]
 
-asdf_yum_php_dependencies: ["re2c", "gettext", "libxml2-devel", "bzip2-devel", "libcurl-devel", "zlib-devel",
-  "libicu-devel", "libjpeg-devel", "libpng-devel", "libwebp-devel", "libedit-devel", "openssl-devel", "libfreetype6-devel"]
+asdf_yum_php_dependencies: ["re2c", "gettext", "libxml2-devel", "bzip2-devel", "libcurl-devel", "zlib-devel", "libicu-devel", "libjpeg-devel", "libpng-devel", "libwebp-devel", "libedit-devel", "openssl-devel", "libfreetype6-devel"]
 
 asdf_yum_ruby_dependencies: ["openssl-devel", "libyaml-devel", "zlib-devel", "ncurses-devel", "libffi-devel", "bzip2"]
 

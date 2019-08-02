@@ -5,15 +5,15 @@
     - role: asdf
       vars:
         asdf_plugins:
-        - name: "python"
-          versions: ["3.7.4", "2.7.16"]
-          global: "3.7.4 2.7.16"
-        - name: "golang"
-          versions: ["1.12.7"]
-          global: "1.12.7"
-        - name: "nodejs"
-          versions: ["10.16.1"]
-          global: "10.16.1"
-        - name: "ruby"
-          versions: ["2.6.3"]
-          global: "2.6.3"
+          - name: "python"
+            versions: ["3.7.4", "2.7.16"]
+            global: "3.7.4 2.7.16"
+          - name: "golang"
+            versions: ["1.12.7"]
+            global: "1.12.7"
+          - name: "nodejs"
+            versions: ["10.16.1"]
+            global: "10.16.1"
+          - name: "ruby"
+            versions: ["2.6.3"]
+            global: "2.6.3"

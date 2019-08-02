@@ -1,3 +1,4 @@
+---
 - name: Set path to .bashrc
   set_fact:
     asdf_bashrc_path: "{{ asdf_user_home }}/.bashrc"
